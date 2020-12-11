@@ -1,6 +1,8 @@
 # popcatindicator
 Volume indicator with Cat pop theme for GNOME
 
+![Preview of popcatindicator](preview.webp)
+
 ## Step One ##
 
 `git clone https://github.com/bastakka/popcatindicator`
