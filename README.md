@@ -1,11 +1,11 @@
 # popcatindicator
 Volume indicator with Cat pop theme for GNOME
 
-##Step One##
+## Step One ##
 
 `git clone https://github.com/bastakka/popcatindicator`
 
-##Step Two##
+## Step Two ##
 
 Copy the .svg files into your active icon theme for gnome to folder scalable/status.
 
@@ -15,11 +15,11 @@ Most common path would be /usr/share/icons/name-of-your-theme/scalable/status
 
 If your current theme does not have these directories, you will need to head somewhere to understand how gnome icon themes work. If i recall corectly, there should be index.theme file in root folder of your theme and you need to edit variable Directories to contain folder of cats and then make new entry for them.
 
-###How to edit variable Directories:###
+### How to edit variable Directories: ###
 ```
 Directories=scalable/status,more/directories,...
 ```
-###Suggested entry:###
+### Suggested entry: ###
 ```
 [scalable/status]
 Context=Status
@@ -29,9 +29,9 @@ MaxSize=512
 Type=Scalable
 ```
 
-##Step Three - reload GNOME##
+## Step Three - reload GNOME ##
 You can do this by pressing ALT+F2 and typing r. 
 Users on Wayland probably need to log out and log back as first method doesn't work.
 
-##Step Four - Have fun##
+## Step Four - Have fun ##
 I hope this works for you beacuse I have no idea how to troubleshoot anything. 
