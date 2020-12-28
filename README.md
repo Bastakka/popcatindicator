@@ -33,7 +33,7 @@ Type=Scalable
 
 ## Step Three - reload GNOME ##
 You can do this by pressing ALT+F2 and typing r. 
-Users on Wayland probably need to log out and log back as first method doesn't work.
+Users on Wayland probably need to log out and log back as reloading GNOME doesn't work on Wayland.
 
 ## Step Four - Have fun ##
 I hope this works for you beacuse I have no idea how to troubleshoot anything. 
