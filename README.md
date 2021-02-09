@@ -17,6 +17,8 @@ Most common path would be /usr/share/icons/name-of-your-theme/scalable/status
 
 If your current theme does not have these directories, you will need to head somewhere to understand how gnome icon themes work. If i recall corectly, there should be index.theme file in root folder of your theme and you need to edit variable Directories to contain folder of cats and then make new entry for them.
 
+The script [install.sh](install.sh) does this automatically.
+
 ### How to edit variable Directories: ###
 ```
 Directories=scalable/status,more/directories,...
